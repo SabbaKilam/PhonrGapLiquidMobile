@@ -19,6 +19,6 @@
   <access origin="http://google.com" />
   <access origin="http://yahoo.com" />
   <icon src="">
-  <gap:splash src="">
+  <gap:splash src="splash.png">
 
 </widget>
