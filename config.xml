@@ -17,6 +17,6 @@
         <!-- whitelist below of external domains allowed -->
         <icon src="icon.png" />
         <gap:splash src="splash.png" />
-        <preference name="orientation" value="landscape" />
+        <!--<preference name="orientation" value="landscape" />-->
 
     </widget>
