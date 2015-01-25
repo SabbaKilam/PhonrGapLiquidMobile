@@ -1,0 +1,123 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.stacked {
+  position: absolute;
+  top: 0;
+  right: 0;
+} 
+
+#modalBox{
+  z-index: 1;
+  background: rgba(127,127,127,0.8);
+  width: 100rem;
+  min-height: 100%;
+  visibility: hidden;
+  /*
+  
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  */
+
+  opacity: 0;  
+}
+
+
+
+#top{
+  z-index: 0; 
+  width: 100rem;
+  background: lightgray;
+  min-height: 100%; 
+  
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s; 
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none  
+}
+
+#bottom{
+  z-index: -1;
+
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size: 16px 16px;
+   /* http://lea.verou.me/css3patterns/#*/
+
+  width: 100rem;
+  min-height: 100%;
+}
+
+input[type="button"]{
+  text-align: center;
+  width: 5rem ;
+  height: 2.5rem;
+  font-size: 3rem;
+}
+
+#msg{
+  position: relative;
+  background: white;
+  padding: 0.5rem;
+  width: 30rem;
+  margin: 0 auto;
+  margin-top: 20rem;
+  opacity: 1;
+  z-index: 2;
+  border-radius: 1.5rem;
+  box-shadow: 2rem 2rem 2rem black;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;  
+}
+#x{
+    position: absolute;
+    right: -3.09rem;
+    top: -3.09rem;
+    width: 5rem;    
+    padding-top: 5rem;
+    background: url(../images/x.gif) no-repeat center;
+    background-size: contain;
+}
+
+#x:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.check{
+    display: block;
+    background: url(../images/checkbox.png) no-repeat center;
+    background-size: contain;  
+    width: 10rem;    
+    padding-top: 10rem;
+    margin: 5rem;
+    cursor: pointer;
+    #box-shadow: 0.5rem 0.5rem 1rem black;    
+}
+#check1{
+    #position: absolute;
+    #left: 5rem;
+    #top: 4rem;
+
+z-index: 5;    
+}
+
+
+
+
+
+
+
