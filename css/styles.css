@@ -103,16 +103,13 @@ input[type="button"]{
     background-size: contain;  
     width: 10rem;    
     padding-top: 10rem;
+    padding-left: 45rem;
     margin: 5rem;
     cursor: pointer;
     #box-shadow: 0.5rem 0.5rem 1rem black;    
 }
 #check1{
-    #position: absolute;
-    #left: 5rem;
-    #top: 4rem;
-
-z-index: 5;    
+    z-index: 5;    
 }
 
 

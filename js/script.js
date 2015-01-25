@@ -22,8 +22,8 @@ function flipFlop(){
     //delayMessage();    
   }
   else{
-    S("top").width = 80 + "rem";
-    S("top").boxShadow = "-0.5rem  0 5rem black";    
+    S("top").width = 40 + "rem";
+    S("top").boxShadow = "-0.5rem  0 2rem black";    
     open = true;
     //delayMessage();    
   }
