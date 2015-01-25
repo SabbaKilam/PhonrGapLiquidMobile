@@ -36,18 +36,18 @@ function killMessage(){
 }
 /////////////////////////////////
 function delayMessage(){
-  if(open){
+  /*if(open){
         S('modalBox').visibility = "visible";
         S('modalBox').opacity = 1;
-  }
-/*  
+  }*/
+ 
   if(open){
     setTimeout(function(){
         S('modalBox').visibility = "visible";
         S('modalBox').opacity = 1;        
     }, 400);
   }
-*/  
+ 
 }
 
 
