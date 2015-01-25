@@ -11,21 +11,32 @@ function adjustRootEm(){
   be 100th of the window's width
   */
   S(document.documentElement).fontSize = innerWidth/100 + "px";
+  stayPut();
+}
+////////////////////////////////////////////
+function stayPut(){
+  if(open){
+    S("top").width = 40 + "rem";
+    S("top").boxShadow = "none";
+  }
+  else{
+    S("top").width = 100 + "rem";
+    S("top").boxShadow = "-0.5rem  0 2rem black";
+  }
 }
 ////////////////////////////////////////////
 O("top").onclick = flipFlop;
+adjustRootEm();
 function flipFlop(){
   if(open){
     S("top").width = 100 + "rem";
     S("top").boxShadow = "none";
     open = false;
-    //delayMessage();    
   }
   else{
     S("top").width = 40 + "rem";
     S("top").boxShadow = "-0.5rem  0 2rem black";    
     open = true;
-    //delayMessage();    
   }
 }
 ///////////////////////////////////////
