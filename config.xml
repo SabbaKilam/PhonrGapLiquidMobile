@@ -18,7 +18,7 @@
   <!-- whitelist below of external domains allowed -->
   <access origin="http://google.com" />
   <access origin="http://yahoo.com" />
-  <icon src="">
+  <icon src="icon.png">
   <gap:splash src="splash.png">
 
 </widget>
