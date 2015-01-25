@@ -8,15 +8,17 @@
 >
 <!-- versionCode is optional and Android only -->
 
-  <name>Hello World</name>
+  <name>LiquidMobileWindow</name>
   <description>
-    An example for phonegap build docs. 
+    Liquid Mobile Window
   </description>
-  <author href="https://mywebsite.com" email="my.name@gmail.com">
-    FirstName LastName
+  <author href="https://abbas411.com" email="aabdulmalik@pit.edu">
+    Abbas Abdulmalik
   </author>    
   <!-- whitelist below of external domains allowed -->
   <access origin="http://google.com" />
   <access origin="http://yahoo.com" />
+  <icon src="">
+  <gap:splash src="">
 
 </widget>
