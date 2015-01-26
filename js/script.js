@@ -20,7 +20,7 @@ function stayPut(){
     S("top").boxShadow = "none";
   }
   else{
-    S("top").width = 100 + "rem";
+    S("top").width = 99 + "rem";
     S("top").boxShadow = "-0.5rem  0 2rem black";
   }
 }
@@ -29,7 +29,7 @@ O("top").onclick = flipFlop;
 adjustRootEm();
 function flipFlop(){
   if(open){
-    S("top").width = 100 + "rem";
+    S("top").width = 99 + "rem";
     S("top").boxShadow = "none";
     open = false;
   }
@@ -43,7 +43,7 @@ function flipFlop(){
 O('x').onclick = killMessage;
 function killMessage(){
   S('modalBox').opacity = 0;
-  setTimeout(function(){S('modalBox').visibility = "hidden";},1000);  
+  setTimeout(function(){S('modalBox').visibility = "hidden";},500);  
 }
 /////////////////////////////////
 function delayMessage(){
