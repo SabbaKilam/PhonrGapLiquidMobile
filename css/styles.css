@@ -17,11 +17,11 @@ body {
   width: 100rem;
   min-height: 100%;
   visibility: hidden;
-  /*
-  
-  -webkit-transition: opacity 1s;
-  transition: opacity 1s;
-  */
+ 
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  transition: opacity 0.5s; 
 
   opacity: 0;  
 }
@@ -35,6 +35,8 @@ body {
   min-height: 100%; 
   
   -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  -ms-transition: width 0.5s;
   transition: width 0.5s; 
   
   -webkit-user-select: none;
