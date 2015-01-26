@@ -20,7 +20,7 @@ function stayPut(){
     S("top").boxShadow = "none";
   }
   else{
-    S("top").width = 99 + "rem";
+    S("top").width = 80 + "rem";
     S("top").boxShadow = "-0.5rem  0 2rem black";
   }
 }
@@ -29,7 +29,7 @@ O("top").onclick = flipFlop;
 adjustRootEm();
 function flipFlop(){
   if(open){
-    S("top").width = 99 + "rem";
+    S("top").width = 80 + "rem";
     S("top").boxShadow = "none";
     open = false;
   }
@@ -47,18 +47,12 @@ function killMessage(){
 }
 /////////////////////////////////
 function delayMessage(){
-  /*if(open){
-        S('modalBox').visibility = "visible";
-        S('modalBox').opacity = 1;
-  }*/
- 
   if(open){
     setTimeout(function(){
         S('modalBox').visibility = "visible";
         S('modalBox').opacity = 1;        
     }, 400);
   }
- 
 }
 
 
