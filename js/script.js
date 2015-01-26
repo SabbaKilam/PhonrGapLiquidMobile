@@ -11,6 +11,10 @@ function adjustRootEm(){
   be 100th of the window's width
   */
   S(document.documentElement).fontSize = innerWidth/100 + "px";
+  var pagesArray = C("stacked");
+  for(var i=0; i< pagesArray.length; i++){
+    S(pagesArray[i]).minHeight = innerHeight + "px";
+  };
   stayPut();
 }
 ////////////////////////////////////////////
